@@ -1,0 +1,387 @@
+body {
+    font-family: "Avenir Next";
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header {
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .main {
+    padding: 100px 80px;
+  }
+  
+  .copy-container h1 {
+    font-size: 140px;
+  }
+  
+  .copy-container h2 {
+    font-size: 60px;
+  }
+  
+  .copy-container span {
+    color: #ff4a4a;
+  }
+  
+  .contents {
+    height: 500px;
+    margin-top: 100px;
+  }
+  
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .contents-item {
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    align-content: center;
+
+  }
+  
+  .contents-item p {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .contact-form {
+    padding-top: 100px;
+  }
+  
+  /* Tambahkan CSS untuk tags <input> dan <textarea> */
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border:1px solid #dee7ec;
+  }
+  
+  /* Tambahkan CSS untuk contact-submit */
+  .contact-submit {
+    background-color:#dee7ec;
+    color:#889eab;
+  }
+  
+  .footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 420px;
+    padding: 60px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+    
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+    height: 80px;
+    padding: 60px;
+  }
+  
+  /* BAGIAN tentang */
+.header1 {
+  height: 150px;
+  background-color: #418ca9;
+  color: #fff;
+}
+
+.prg {
+  /* background-color: rgb(176, 210, 232); */
+  padding: 80px 100px 80px 100px;
+  border-radius: 12px;
+  text-align: justify;
+  box-shadow: 0 1px 13px rgb(0 0 0 / 20%);
+  margin-bottom: 10.5%;
+  box-sizing: border-box;
+}
+
+.footer1 {
+  background-color: #55a0b6;
+  color: #fff;
+  height: 250px;
+  /* padding: 40px; */
+}
+
+/* BAGIAN GENRE BUKU */
+.header2 {
+  height: 150px;
+  background-color:  #418ca9;
+  color: #fff;
+}
+
+.listbook {
+  background-color: rgb(133, 213, 253);
+  padding: 80px 100px 80px 100px;
+  border-radius: 12px;
+  text-align: justify;
+  box-shadow: 0 1px 13px rgb(0 0 0 / 20%);
+  margin-bottom: 5.5%;
+}
+
+.listbook p {
+
+  /* box-sizing: border-box; */
+  font-family: 'Poppins', sans-serif; 
+
+}
+
+
+
+  /* bagian beli */
+.header3 {
+  height: 150px;
+  background-color: #418ca9;
+  color: rgb(21, 20, 20);
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 0px 0px 0px;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.select {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 0px 0px 0px;
+}
+
+.user-details .input-box2 textarea {
+  padding-top: 3%;
+  height: 30%;
+  width: 50%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+ 
+}
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .topp {
+  margin-top: 10px;
+}
+.home {
+  padding: 140px 180px 0px 180px;
+}
+.sales-boxes{
+  background: white;
+  padding: 3% 4% 4% 4%;
+  border-radius: 12px;
+  box-shadow: 0 1px 13px rgb(0 0 0 / 20%);
+  margin-bottom: 7%
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+div {
+  display: block;
+}
+
+content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 0px 0px 0px;
+}
+
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+  /* background-color: #ff4a4a; */
+}
+.user-details .input-box .checkbox {
+  margin-right: 30px;
+  margin-bottom: 43px;
+  height: 60px;
+  width: 60px;
+  border-radius: 3px;
+}
+
+ form .category {
+  display: flex;
+  width: 28%;
+  margin: 14px 0;
+  justify-content: space-between;
+} 
+
+form .category label .dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #c14f4f;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+form .category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+* form .button3 input {
+  height: 30px;
+  /* width: calc(60% / 2 - 75px); */
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: rgb(28, 81, 128);
+} 
+
+input[type="submit" i] {
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  color: buttontext;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+form .button3 {
+  padding: 0;
+  text-align: center;
+}
+
+label {
+  cursor: default;
+}
+
+.headerS {
+  height: 240px;
+  background-color:  #418ca9;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 80px 100px 80px 100px;
+  border-radius: 12px;
+  text-align: justify;
+  float: left;
+  padding: 33px 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.button3 a {
+  font-size: 27px;
+  background-color:  rgb(28, 81, 128);
+  color: rgb(255, 255, 255);
+  margin:14px;
+}
+
+.fiksi .contents-item {
+  float:left;
+  margin:15px;
+}
+.fiksi .section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.footer5{
+background-color: #2f5167;
+color: #fff;
+height: 420px;
+padding: 60px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+  
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+  height: 80px;
+  padding: 60px;
+}
